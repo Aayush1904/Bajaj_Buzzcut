@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+@theme {
+  --animate-float: float 4s ease-in-out infinite;
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0px) rotate(-15deg);
+    }
+
+    50% {
+      transform: translateY(-10px) rotate(-12deg);
+    }
+  }
+}
