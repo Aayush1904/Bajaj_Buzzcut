@@ -76,7 +76,6 @@ const Polaroid = ({ icon, caption, rotation, subcaption }) => {
       <div className="bg-[#f0f0f0] h-[180px] w-full border-2 border-[#181818] mb-4 flex flex-col items-center justify-center overflow-hidden relative group">
         <div className="absolute inset-0 bg-gradient-to-tr from-black/5 to-transparent pointer-events-none" />
         {icon}
-        <div className="mt-4 font-bold text-gray-400 group-hover:text-gray-600 transition-colors uppercase tracking-widest text-xs">Photo Pending</div>
       </div>
       <div className="font-['Sue_Ellen_Francisco'] text-3xl text-[#181818] mb-1">{caption}</div>
       {subcaption && <div className="font-['Indie_Flower'] text-sm text-red-500 font-bold uppercase">{subcaption}</div>}
@@ -189,7 +188,7 @@ const HomePage = () => {
             <div className="bg-[#181818] text-white p-8 my-4 rounded-lg transform rotate-1 shadow-xl">
               <h3 className="font-['Gloria_Hallelujah'] text-3xl mb-4 text-center text-yellow-400 line-through decoration-red-500 underline">THE BET:</h3>
               <p className="text-center text-3xl mb-2">Higher GPA = Eternal Glory</p>
-              <p className="text-center text-3xl text-red-400 font-bold">LOWER GPA = THE BUZZCUT CEREMONY</p>
+              <p className="text-center text-3xl text-red-400 font-bold">LOWER GPA = THE BUZZCUT CEREMONY AND ₹2K</p>
             </div>
 
             <p>
@@ -201,7 +200,7 @@ const HomePage = () => {
           <h2
             className="font-['Gloria_Hallelujah'] text-3xl mt-16 border-b-4 border-[#181818] inline-block pb-2 mb-10"
           >
-            HALL OF FATE
+            HALL OF FAME
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16">
