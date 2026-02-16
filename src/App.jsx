@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Analytics } from '@vercel/analytics/react';
 
 // Import Samarth's images
 import samarthImg1 from './assets/WhatsApp Image 2026-02-16 at 13.27.39.jpeg';
@@ -330,7 +329,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
-      <Analytics />
     </Router>
   );
 };
